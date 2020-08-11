@@ -47,7 +47,15 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    // trabajo en clases "desafio"
+    // trabajo en clases "desafio kotlin"
+
+    val tagLog = "Desafio Kotlin"
+    fun printLogAndroid(tag:String, resultado: String){
+
+        Log.d(tagLog+" "+tag,resultado)
+
+    }
+
 
     fun getName(name:String) : String {
         return "minombre es: $name"
@@ -55,25 +63,48 @@ class MainActivity : AppCompatActivity() {
 
     fun getNameSomething(name: String, apellido: String, edad: Int): String {
         return "mi nombre es $name $apellido  y tengo $edad"
+
     }
 
-    fun declararNumero () {
+    // 4 declarar numeros
+
         var num1 = 10
         var num2 = 20
         var num3 = 30
     }
 
+// 5. imprimir suma de los numeros
+
     fun getNumbers (num1: Int, num2: Int, num3: Int): Int {
         return num1 + num2 + num3
     }
 
-    Log.d
+   
 
     fun sumadeVariables(){
 
+// 6 Declarar una variable string y otra char
+        var nameOne : String
+        var LetterOne : Char
+
     }
+
+ // 7 Asignar valor “Arataka Reigen”  variable String y “A” a la variable Char
+
     fun asignarVariable () {
         var A = "Arakata Reigen"
-        var a = A
+        var a = 'A'
     }
+
+//8. Imprimir cantidad de caracteres que tiene la variable String y modificar. y char a otro valor distinto.
+
+
+//9. Declarar una variable de tipo Float de forma explícita.
+ fun numberFloat() {
+
+    var floatNum: Float
 }
+
+//10. Asignar un valor a la variable Float.
+
+   floatNum = 8.8f
